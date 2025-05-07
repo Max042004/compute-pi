@@ -40,18 +40,6 @@ check: default
 	time ./time_test_baseline
 	time ./time_test_openmp_2
 	time ./time_test_openmp_4
-	time ./time_test_avx
-	time ./time_test_avxunroll
-	time ./time_test_leibniz
-	time ./time_test_leibniz_openmp_2
-	time ./time_test_leibniz_openmp_4
-	time ./time_test_leibniz_avx
-	time ./time_test_leibniz_avxunroll
-	time ./time_test_euler
-	time ./time_test_euler_openmp_2
-	time ./time_test_euler_openmp_4
-	time ./time_test_euler_avx
-	time ./time_test_euler_avxunroll
 
 gencsv: default
 	for i in `seq 1008 4000 1000000`; do \
