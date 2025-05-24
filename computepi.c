@@ -2,6 +2,7 @@
 #include <immintrin.h>
 #include <math.h>
 #include <omp.h>
+#include <time.h>
 #include <stdio.h>
 
 double compute_pi_baseline(size_t N)
