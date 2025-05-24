@@ -2,11 +2,6 @@ CC = gcc
 CFLAGS = -O0 -std=gnu99 -Wall -fopenmp -mavx
 EXECUTABLE = \
 	time_test_baseline time_test_openmp_2 time_test_openmp_4 \
-	time_test_avx time_test_avxunroll \
-	time_test_leibniz time_test_leibniz_openmp_2 time_test_leibniz_openmp_4 \
-	time_test_leibniz_avx time_test_leibniz_avxunroll \
-	time_test_euler time_test_euler_openmp_2 time_test_euler_openmp_4 \
-	time_test_euler_avx time_test_euler_avxunroll \
 	benchmark_clock_gettime methods_error_rate
 
 GIT_HOOKS := .git/hooks/applied

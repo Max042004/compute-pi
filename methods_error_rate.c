@@ -19,11 +19,5 @@ int main(int argc, char const *argv[])
     // Baseline
     printf("%lf ", COMPUTE_PI_ERROR(compute_pi_baseline(N)));
 
-    // Leibniz
-    printf("%lf ", COMPUTE_PI_ERROR(compute_pi_leibniz(N)));
-
-    // Baseline
-    printf("%lf\n", COMPUTE_PI_ERROR(compute_pi_euler(N)));
-
     return 0;
 }
