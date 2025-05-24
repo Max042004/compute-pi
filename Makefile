@@ -35,6 +35,7 @@ check: default
 	time ./time_test_baseline
 	time ./time_test_openmp_2
 	time ./time_test_openmp_4
+	rm -f $(EXECUTABLE) *.o *.s *.png *.csv
 
 gencsv: default
 	for i in `seq 1008 4000 1000000`; do \
